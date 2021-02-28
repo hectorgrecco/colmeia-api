@@ -1,16 +1,18 @@
 const mongoose = require('mongoose');
+const uuid = require('node-uuid');
 const { toJSON } = require('./plugins');
 const { tokenTypes } = require('../config/tokens');
 
 const tokenSchema = mongoose.Schema(
   {
+    _id: { type: String, default: uuid.v4 },
     token: {
       type: String,
       required: true,
       index: true,
     },
     user: {
-      type: mongoose.SchemaTypes.ObjectId,
+      type: String,
       ref: 'User',
       required: true,
     },

@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const uuid = require('node-uuid');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
 const { toJSON, paginate } = require('./plugins');
@@ -6,6 +7,7 @@ const { roles } = require('../config/roles');
 
 const userSchema = mongoose.Schema(
   {
+    _id: { type: String, default: uuid.v4 },
     name: {
       type: String,
       required: true,
@@ -34,6 +36,10 @@ const userSchema = mongoose.Schema(
         }
       },
       private: true, // used by the toJSON plugin
+    },
+    whatsapp: {
+      type: String,
+      required: true,
     },
     role: {
       type: String,
