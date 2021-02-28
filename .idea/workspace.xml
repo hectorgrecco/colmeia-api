@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97d9c3e4-4bdf-4d43-aecd-0f4668b4e9ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/colmeia-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/hive.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/slug.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/hive.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/v1/hive.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/v1/slug.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/hive.service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/slug.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/token.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/token.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/v1/auth.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/v1/auth.route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/v1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/v1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/auth.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mHz3mFHSSY7iubxkJDsM351cEU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/services" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/services" />
+      <recent name="$PROJECT_DIR$/src/controllers" />
+      <recent name="$PROJECT_DIR$/src/routes/v1" />
+      <recent name="$PROJECT_DIR$/src/models" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97d9c3e4-4bdf-4d43-aecd-0f4668b4e9ef" name="Default Changelist" comment="" />
+      <created>1609165107693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609165107693</updated>
+      <workItem from="1609165108971" duration="24513000" />
+      <workItem from="1609770745418" duration="596000" />
+      <workItem from="1609790714977" duration="64000" />
+      <workItem from="1613006404159" duration="832000" />
+      <workItem from="1613137805979" duration="7869000" />
+      <workItem from="1613216523055" duration="595000" />
+      <workItem from="1614096457266" duration="3984000" />
+      <workItem from="1614293781105" duration="6112000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613043805155">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="304" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.940@0.25.1680.940" timestamp="1613043805155" />
+    <state x="377" y="67" key="CommitChangelistDialog2" timestamp="1609254413527">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="377" y="67" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1609254413527" />
+    <state x="541" y="252" width="598" height="518" key="find.popup" timestamp="1614442345250">
+      <screen x="0" y="25" width="1680" height="953" />
+    </state>
+    <state x="541" y="248" width="598" height="490" key="find.popup/0.23.1680.944@0.23.1680.944" timestamp="1609191037615" />
+    <state x="541" y="249" width="598" height="494" key="find.popup/0.23.1680.949@0.23.1680.949" timestamp="1609368002091" />
+    <state x="541" y="250" width="598" height="495" key="find.popup/0.23.1680.952@0.23.1680.952" timestamp="1609254487890" />
+    <state x="541" y="249" width="598" height="491" key="find.popup/0.25.1680.942@0.25.1680.942" timestamp="1614124501866" />
+    <state x="541" y="252" width="598" height="518" key="find.popup/0.25.1680.953@0.25.1680.953" timestamp="1614442345250" />
+  </component>
+</project>
