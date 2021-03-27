@@ -99,7 +99,7 @@ describe('Auth routes', () => {
       });
     });
 
-    test('should return 401 error if there are no users with that email', async () => {
+    test('should return 401 error if there are no auth with that email', async () => {
       const loginCredentials = {
         email: userOne.email,
         password: userOne.password,

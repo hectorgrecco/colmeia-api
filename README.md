@@ -167,8 +167,8 @@ JWT_ACCESS_EXPIRATION_MINUTES=30
 # Number of days after which a refresh token expires
 JWT_REFRESH_EXPIRATION_DAYS=30
 
-# SMTP configuration options for the email service
-# For testing, you can use a fake SMTP service like Ethereal: https://ethereal.email/create
+# SMTP configuration options for the email services
+# For testing, you can use a fake SMTP services like Ethereal: https://ethereal.email/create
 SMTP_HOST=email-server
 SMTP_PORT=587
 SMTP_USERNAME=email-server-username
@@ -272,7 +272,7 @@ const userController = require('../../controllers/user.controller');
 
 const router = express.Router();
 
-router.post('/users', validate(userValidation.createUser), userController.createUser);
+router.post('/auth', validate(userValidation.createUser), userController.createUser);
 ```
 
 ## Authentication
@@ -286,7 +286,7 @@ const userController = require('../../controllers/user.controller');
 
 const router = express.Router();
 
-router.post('/users', auth(), userController.createUser);
+router.post('/auth', auth(), userController.createUser);
 ```
 
 These routes require a valid JWT access token in the Authorization request header using the Bearer schema. If the request does not contain a valid access token, an Unauthorized (401) error is thrown.
@@ -314,7 +314,7 @@ const userController = require('../../controllers/user.controller');
 
 const router = express.Router();
 
-router.post('/users', auth('manageUsers'), userController.createUser);
+router.post('/auth', auth('manageUsers'), userController.createUser);
 ```
 
 In the example above, an authenticated user can access this route only if that user has the `manageUsers` permission.

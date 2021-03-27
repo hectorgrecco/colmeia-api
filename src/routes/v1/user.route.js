@@ -29,10 +29,10 @@ module.exports = router;
 /**
  * @swagger
  * path:
- *  /users:
+ *  /auth:
  *    post:
  *      summary: Create a user
- *      description: Only admins can create other users.
+ *      description: Only admins can create other auth.
  *      tags: [Users]
  *      security:
  *        - bearerAuth: []
@@ -82,8 +82,8 @@ module.exports = router;
  *          $ref: '#/components/responses/Forbidden'
  *
  *    get:
- *      summary: Get all users
- *      description: Only admins can retrieve all users.
+ *      summary: Get all auth
+ *      description: Only admins can retrieve all auth.
  *      tags: [Users]
  *      security:
  *        - bearerAuth: []
@@ -109,7 +109,7 @@ module.exports = router;
  *            type: integer
  *            minimum: 1
  *          default: 10
- *          description: Maximum number of users
+ *          description: Maximum number of auth
  *        - in: query
  *          name: page
  *          schema:
@@ -150,10 +150,10 @@ module.exports = router;
 /**
  * @swagger
  * path:
- *  /users/{id}:
+ *  /auth/{id}:
  *    get:
  *      summary: Get a user
- *      description: Logged in users can fetch only their own user information. Only admins can fetch other users.
+ *      description: Logged in auth can fetch only their own user information. Only admins can fetch other auth.
  *      tags: [Users]
  *      security:
  *        - bearerAuth: []
@@ -180,7 +180,7 @@ module.exports = router;
  *
  *    patch:
  *      summary: Update a user
- *      description: Logged in users can only update their own information. Only admins can update other users.
+ *      description: Logged in auth can only update their own information. Only admins can update other auth.
  *      tags: [Users]
  *      security:
  *        - bearerAuth: []
@@ -231,7 +231,7 @@ module.exports = router;
  *
  *    delete:
  *      summary: Delete a user
- *      description: Logged in users can delete only themselves. Only admins can delete other users.
+ *      description: Logged in auth can delete only themselves. Only admins can delete other auth.
  *      tags: [Users]
  *      security:
  *        - bearerAuth: []
