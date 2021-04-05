@@ -2,6 +2,7 @@ const express = require('express');
 const authRoute = require('./auth.route');
 const userRoute = require('./user.route');
 const hiveRoute = require('./hive.route');
+const biRoute = require('./bi.route');
 const slugRoute = require('./slug.route');
 const docsRoute = require('./docs.route');
 const config = require('../../config/config');
@@ -14,12 +15,16 @@ const defaultRoutes = [
     route: authRoute,
   },
   {
-    path: '/auth',
+    path: '/users',
     route: userRoute,
   },
   {
     path: '/hives',
     route: hiveRoute,
+  },
+  {
+    path: '/bi',
+    route: biRoute,
   },
   {
     path: '/slug',

@@ -1,5 +1,5 @@
 # colmeia-api
-Colméia API
+Colmeia API
 # RESTful API Node Server Boilerplate
 
 Good
